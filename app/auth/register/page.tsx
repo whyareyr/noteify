@@ -60,7 +60,8 @@ export default function Register() {
 
       toast({
         title: "Account created",
-        description: "You can now log in with your credentials",
+        description:
+          "You can now log in with your credentials after confirming the mail",
       });
 
       router.push("/auth/login");
@@ -124,7 +125,7 @@ export default function Register() {
                 <Label htmlFor="fullName">Full Name</Label>
                 <Input
                   id="fullName"
-                  placeholder="John Doe"
+                  placeholder="Yoosha Raza"
                   value={fullName}
                   onChange={(e) => setFullName(e.target.value)}
                   required
@@ -135,7 +136,7 @@ export default function Register() {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="m@example.com"
+                  placeholder="yoosha@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
