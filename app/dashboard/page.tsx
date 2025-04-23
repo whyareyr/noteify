@@ -7,7 +7,6 @@ import DashboardLayout from "@/components/dashboard/dashboard-layout";
 import { useNotes } from "@/hooks/use-notes";
 import { NoteGrid } from "@/components/dashboard/note-grid";
 import { EmptyState } from "@/components/dashboard/empty-state";
-import LoadingPage from "@/components/dashboard/loading";
 
 export default function Dashboard() {
   const { user, isLoading } = useAuth();

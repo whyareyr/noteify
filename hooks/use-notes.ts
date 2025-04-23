@@ -17,7 +17,7 @@ export function useNotes() {
   const { toast } = useToast();
   const [isSummarizing, setIsSummarizing] = useState(false);
 
-  // Fetch all notes
+  // Fetch notes
   const notesQuery = useQuery({
     queryKey: ["notes"],
     queryFn: async () => {
