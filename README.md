@@ -1,6 +1,6 @@
-# NoteGenius - AI-Powered Notes App
+# Noteify - AI-Powered Notes App
 
-NoteGenius is a modern note-taking application that combines the power of AI with a clean, intuitive interface. Create, organize, and automatically summarize your notes with the help of artificial intelligence.
+Noteify is a modern note-taking application that combines the power of AI with a clean, intuitive interface. Create, organize, and automatically summarize your notes with the help of artificial intelligence.
 
 ## Features
 
