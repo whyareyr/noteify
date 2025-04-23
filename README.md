@@ -46,7 +46,7 @@ NoteGenius is a modern note-taking application that combines the power of AI wit
    ```env
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-   NEXT_PUBLIC_OPENAI_API_KEY=your_oepnai_api_key
+   NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key
    ```
 
 4. Start the development server:
@@ -68,7 +68,7 @@ The application uses Supabase as its database. The schema includes:
 
 - `NEXT_PUBLIC_SUPABASE_URL`: Your Supabase project URL
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY`: Your Supabase anonymous key
-- `NEXT_PUBLIC_OPENAI_API_KEY`: Your DeepSeek API key for AI summarization
+- `NEXT_PUBLIC_OPENAI_API_KEY`: Your OpenAI API key for AI summarization
 
 ## Features in Detail
 
